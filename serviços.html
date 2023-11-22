@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/styles/serviços.css">
+    <link rel="stylesheet" href="/styles/popup.css">
+    <title>Meowz - Serviços</title>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <div>
+                <a href="index.html">
+                    <img src="\img\banner.png" alt="Meowz Banner">
+                </a>
+            </div>
+            <div>
+                <ul>
+                    <li><a target="_self" href="sobre.html">Sobre</a></li>
+                    <li><a target="_self" href="produtos.html">Produtos</a></li>
+                    <li><a target="_self" class="active" href="serviços.html">Serviços</a></li>
+                    <li><a target="_self" href="duvidas.html">Dúvidas</a></li>
+                    <li><a target="_self" href="#" id="button">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="content">
+            <div class="produtos-section">
+                <div class="produto-box">
+                    <img class='produto-img' src="\img\logoproduto.png" alt="Produto 1">
+                    <h3>Venda de produtos</h3>
+                    <p>- Aqui você encontra variados produtos<br>
+                        - Rações de alta qualidade<br>
+                        - Remédios e vitaminas para seu pet<br>
+                        - Brinquedos para a diversão de seu petzinho
+                        <a href="produtos.html">
+                            <button>Ver produtos</button>
+                        </a>
+                    </p>
+                </div>
+
+                <div class="produto-box">
+                    <img class='produto-img' src="\img\logoconsulta.jpg" alt="Produto 1">
+                    <h3>Nossas consultas</h3>
+                    <p>- Os melhores veterinários para seu petzinho<br>
+                        - Cuidados especiais com cada pet<br>
+                        - Veterinários muito bem qualificados<br>
+                        - Saúde em primeiro lugar!
+                        <a href="consultas.html">
+                            <button>Agende sua consulta</button>
+                        </a>
+                    </p>
+                </div>
+
+                <div class="produto-box">
+                    <img class='produto-img' src="\img\logobanhoetosa.jpg" alt="Produto 1">
+                    <h3>Banho e tosa</h3>
+                    <p>- Os melhores serviços para seu petzinho<br>
+                        - Cuidados especiais com cada pet<br>
+                        - Seu bichinho limpo e feliz, sem estresse<br>
+                        - Diversão e conforto máximo!
+                        <a href="banhoetosa.html">
+                            <button>Agende seu banho e tosa</button>
+                        </a>
+                    </p>
+                </div>
+        </section>
+
+        <div class="popup login">
+            <div class="popup-content">
+                <img src="img/close.jpg" class="close">
+                <img src="img/banner.png">
+                <h2>Bem-vindo de volta!</h2>
+                <input id="1" type="text" placeholder="Email">
+                <input id="2" type="text" placeholder="Senha">
+                <a href="#" class="button-2">Entrar</a>
+                <a href="#" id="Esqueceu">Esqueceu sua senha?</a>
+                <a href="#" id="Registro">Primeira vez? Registre-se!</a>
+            </div>
+        </div>
+        <div class="popup registro">
+            <div class="popup-content">
+                <img src="img/close.jpg" class="close">
+                <img src="img/banner.png">
+                <input id="1" type="text" placeholder="Nome do usuário">
+                <input id="2" type="text" placeholder="Email">
+                <input id="3" type="text" placeholder="Senha">
+                <h2> Sua senha deve incluir</h2>
+                <ul>
+                    <li> 1 Caractere Especial </li>
+                    <li> 1 Número </li>
+                    <li> 1 Letra Maiúscula </li>
+                </ul>
+                <input id="4" type="text" placeholder="Confirme sua senha">
+                <a href="#" class="button-2">Registrar</a>
+                <h4> Ao criar uma conta, você concorda com nossas diretrizes de comunidade </h4>
+            </div>
+        </div>
+        <div class="popup esqueceu">
+            <div class="popup-content">
+                <img src="img/close.jpg" class="close">
+                <img src="img/banner.png">
+                <h2> Para redefinirmos sua senha, necessitamos que voce informe seu nome
+                    e email associado a sua conta.</h2>
+                <h2> Um email de recuperação será enviado e estara válido por 2 horas.</h2>
+                <input id="1" type="text" placeholder="Nome de Usuario">
+                <input id="2" type="text" placeholder="Email">
+                <a href="#" class="button-2">Redefinir Senha</a>
+            </div>
+        </div>
+
+        <div class="fot"></div>
+
+        <footer>
+            <div class="conteudo-footer">
+
+                <ul class="footer-list">
+                    <li>
+                        <h3>Políticas</h3>
+                    </li>
+                    <li>
+                        <a target="_self" href="" class="footer-link">Políticas de privacidade</a>
+                    </li>
+                    <li>
+                        <a target="_self" href="" class="footer-link">Políticas de entrega</a>
+                    </li>
+                    <li>
+                        <a target="_self" href="" class="footer-link">Políticas de devolução</a>
+                    </li>
+                    <li>
+                        <a href="_self" href="" class="footer-link">Termos de serviços</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-list">
+                    <li>
+                        <h3>Institucional</h3>
+                    </li>
+                    <li>
+                        <a target="_self" href="" class="footer-link">Sobre nós</a>
+                    </li>
+                    <li>
+                        <a target="_self" href="" class="footer-link">Administração</a>
+                    </li>
+                    <li>
+                        <a target="_self" href="" class="footer-link">Suporte</a>
+                    </li>
+                    <li>
+                        <a href="_self" href="" class="footer-link">Contato</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-list">
+                    <li>
+                        <h3>Fique conectado</h3>
+                    </li>
+                    <li>
+                        <a target="_self" href="" class="footer-link">Instagram</a>
+                    </li>
+                    <li>
+                        <a target="_self" href="" class="footer-link">Tiktok</a>
+                    </li>
+                    <li>
+                        <a target="_self" href="" class="footer-link">Twitter</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="credits">
+                <p>&#169 2023 All rights reserved</p>
+            </div>
+        </footer>
+    </main>
+
+    <script>
+        document.getElementById("button").addEventListener("click", function () {
+            document.querySelector(".popup.login").style.display = "flex";
+        })
+
+        document.getElementById("Registro").addEventListener("click", function () {
+            document.querySelector(".popup.registro").style.display = "flex";
+            document.querySelector(".popup.login").style.display = "none";
+        })
+
+        document.getElementById("Esqueceu").addEventListener("click", function () {
+            document.querySelector(".popup.esqueceu").style.display = "flex";
+            document.querySelector(".popup.login").style.display = "none";
+        })
+
+        document.querySelectorAll(".close").forEach(function (closeButton) {
+            closeButton.addEventListener("click", function () {
+                document.querySelector(".popup.login").style.display = "none";
+                document.querySelector(".popup.registro").style.display = "none";
+                document.querySelector(".popup.esqueceu").style.display = "none";
+            });
+        });
+    </script>
+
+</body>
+
+
+</html>

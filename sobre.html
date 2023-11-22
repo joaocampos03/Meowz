@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/styles/sobre.css">
+    <link rel="stylesheet" href="/styles/popup.css">
+    <title>Meowz - Sobre nós</title>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <div>
+                <a href="index.html">
+                    <img src="\img\banner.png" alt="Meowz Banner">
+                </a>
+            </div>
+            <div>
+                <ul>
+                    <li><a target="_self" class="active" href="sobre.html">Sobre</a></li>
+                    <li><a target="_self" href="produtos.html">Produtos</a></li>
+                    <li><a target="_self" href="serviços.html">Serviços</a></li>
+                    <li><a target="_self" href="duvidas.html">Dúvidas</a></li>
+                    <li><a target="_self" href="#" id="button">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="content">
+            <div class="image-text-container">
+                <div class="image-container image1">
+                    <img src="\img\equipe.jpg" alt="Cat 1">
+                </div>
+                <div class="text-box text1">
+                    <p>Conheça a nossa equipe apaixonada e dedicada no Meowz! Nossos especialistas em animais são movidos por uma profunda paixão por pets e têm o compromisso de oferecer o melhor atendimento a você e seus companheiros peludos. Com experiência diversificada e amor incondicional pelos animais, nossa equipe está sempre pronta para proporcionar cuidados excepcionais, orientação personalizada e um ambiente acolhedor para todos os clientes de quatro patas.<br><br>Trabalhamos juntos para garantir que cada visita ao nosso pet shop seja uma experiência positiva, repleta de carinho e atenção aos detalhes. Estamos aqui para cuidar do bem-estar e felicidade dos seus animais de estimação, fornecendo serviços e produtos de alta qualidade. Venha nos conhecer e descubra como a nossa equipe está comprometida em fazer a diferença na vida dos seus amados pets!</p>
+                    <button class="button">
+                        <a href="serviços.html" style="text-decoration: none; color: inherit;">Ir para Serviços</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="image-text-container">
+                <div class="image-container2">
+                    <img src="\img\cachorrope.png" alt="Cat 2">
+                </div>
+                <div class="text-box text2">
+                    <p>
+                        Bem-vindo ao Meowz, onde o atendimento ao cliente vai além das expectativas e o cuidado com os animais é a nossa prioridade número um. Na nossa equipe, você encontrará profissionais apaixonados e dedicados, prontos para oferecer um serviço personalizado e amigável.<br><br> Estamos aqui para ouvir suas necessidades e responder a todas as suas perguntas, garantindo que você e seu pet se sintam em casa.Nosso compromisso vai além do atendimento humano, estendendo-se aos membros peludos da sua família. Nossos cuidadores de animais são treinados e experientes, proporcionando um ambiente seguro e amoroso para todos os visitantes. Cada animal é tratado com respeito e carinho, garantindo que suas necessidades individuais sejam atendidas da melhor maneira possível.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="popup login">
+            <div class="popup-content">
+                <img src="img/close.jpg" class="close">
+                <img src="img/banner.png">
+                <h2>Bem-vindo de volta!</h2>
+                <input id="1" type="text" placeholder="Email">
+                <input id="2" type="text" placeholder="Senha">
+                <a href="#" class="button-2">Entrar</a>
+                <a href="#" id="Esqueceu">Esqueceu sua senha?</a>
+                <a href="#" id="Registro">Primeira vez? Registre-se!</a>
+            </div>
+        </div>
+        <div class="popup registro">
+            <div class="popup-content">
+                <img src="img/close.jpg" class="close">
+                <img src="img/banner.png">
+                <input id="1" type="text" placeholder="Nome do usuário">
+                <input id="2" type="text" placeholder="Email">
+                <input id="3" type="text" placeholder="Senha">
+                <h2> Sua senha deve incluir</h2>
+                <ul> 
+                    <li> 1 Caractere Especial </li>
+                    <li> 1 Número </li>
+                    <li> 1 Letra Maiúscula </li>
+                </ul>
+                <input id="4" type="text" placeholder="Confirme sua senha">
+                <a href="#" class="button-2">Registrar</a>
+                <h4> Ao criar uma conta, você concorda com nossas diretrizes de comunidade </h4>
+            </div>
+        </div>
+        <div class="popup esqueceu">
+            <div class="popup-content">
+                <img src="img/close.jpg" class="close">
+                <img src="img/banner.png">
+                <h2> Para redefinirmos sua senha, necessitamos que voce informe seu nome 
+                    e email associado a sua conta.</h2>
+                <h2> Um email de recuperação será enviado e estara válido por 2 horas.</h2>
+                <input id="1" type="text" placeholder="Nome de Usuario">
+                <input id="2" type="text" placeholder="Email">
+                <a href="#" class="button-2">Redefinir Senha</a>
+            </div>
+        </div>
+
+        <footer>
+            <div class="conteudo-footer">
+                
+                <ul class="footer-list">
+                    <li>
+                        <h3>Políticas</h3>
+                    </li>
+                    <li>
+                        <a target="_self" href="" class="footer-link">Políticas de privacidade</a>
+                    </li>
+                    <li>
+                        <a target="_self" href="" class="footer-link">Políticas de entrega</a>
+                    </li>
+                    <li>
+                        <a target="_self" href="" class="footer-link">Políticas de devolução</a>
+                    </li>
+                    <li>
+                        <a href="_self" href="" class="footer-link">Termos de serviços</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-list">
+                    <li>
+                        <h3>Institucional</h3>
+                    </li>
+                    <li>
+                        <a target="_self" href="" class="footer-link">Sobre nós</a>
+                    </li>
+                    <li>
+                        <a target="_self" href="" class="footer-link">Administração</a>
+                    </li>
+                    <li>
+                        <a target="_self" href="" class="footer-link">Suporte</a>
+                    </li>
+                    <li>
+                        <a href="_self" href="" class="footer-link">Contato</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-list">
+                    <li>
+                        <h3>Fique conectado</h3>
+                    </li>
+                    <li>
+                        <a target="_self" href="" class="footer-link">Instagram</a>
+                    </li>
+                    <li>
+                        <a target="_self" href="" class="footer-link">Tiktok</a>
+                    </li>
+                    <li>
+                        <a target="_self" href="" class="footer-link">Twitter</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="credits">
+                <p>&#169 2023 All rights reserved</p>
+            </div>
+        </footer>
+    </main>
+
+    <script>
+        document.getElementById("button").addEventListener("click", function(){
+            document.querySelector(".popup.login").style.display = "flex";
+        })
+    
+        document.getElementById("Registro").addEventListener("click", function(){
+            document.querySelector(".popup.registro").style.display = "flex";
+            document.querySelector(".popup.login").style.display = "none";
+        })
+
+        document.getElementById("Esqueceu").addEventListener("click", function(){
+            document.querySelector(".popup.esqueceu").style.display = "flex";
+            document.querySelector(".popup.login").style.display = "none";
+        })
+    
+        document.querySelectorAll(".close").forEach(function(closeButton) {
+            closeButton.addEventListener("click", function(){
+                document.querySelector(".popup.login").style.display = "none";
+                document.querySelector(".popup.registro").style.display = "none";
+                document.querySelector(".popup.esqueceu").style.display = "none";
+            });
+        });
+    </script>
+
+</body>
+
+
+</html>
